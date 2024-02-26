@@ -49,7 +49,6 @@ lr.coef_
 lr.intercept_
 ```
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
 ## 1)HEAD:
 ![image](https://github.com/gpavana/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118787343/b63f656e-500f-4008-ad94-472539f0f910)
 ## 2)GRAPH OF PLOTTED DATA:
