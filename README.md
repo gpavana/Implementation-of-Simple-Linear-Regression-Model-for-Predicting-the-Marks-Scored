@@ -26,7 +26,7 @@ RegisterNumber:  212222230105
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-df=pd.read_csv('/content/ex1_os.csv')
+df=pd.read_csv('student.csv')
 df.head(10)
 plt.scatter(df['X'],df['Y'])
 plt.xlabel('X')
