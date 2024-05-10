@@ -1,26 +1,24 @@
-# Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
-
-## AIM:
+## Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
+### DATE:13.02.2024
+### AIM:
 To write a program to predict the marks scored by a student using the simple linear regression model.
 
-## Equipments Required:
+### Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
+### Algorithm
 1. Import necessary libraries (e.g., pandas, numpy,matplotlib).
 2. Load the dataset and then split the dataset into training and testing sets using sklearn library.
 3. Create a Linear Regression model and train the model using the training data (study hours as input, marks scored as output).
 4. Use the trained model to predict marks based on study hours in the test dataset.
 5. Plot the regression line on a scatter plot to visualize the relationship between study hours and marks scored.
 
-## Program:
+### Program:
 ```
-/*
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: PAVANA.G
 RegisterNumber:  212222230105
-*/
 ```
 ```python
 import pandas as pd
@@ -48,17 +46,17 @@ plt.plot(X_train,lr.predict(X_train),color='orange')
 lr.coef_
 lr.intercept_
 ```
-## Output:
-## 1)HEAD:
+### Output:
+### 1)HEAD:
 ![image](https://github.com/gpavana/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118787343/b63f656e-500f-4008-ad94-472539f0f910)
-## 2)GRAPH OF PLOTTED DATA:
+### 2)GRAPH OF PLOTTED DATA:
 ![image](https://github.com/gpavana/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118787343/c81e2c1b-901f-4649-ab92-c88901e26554)
-## 3)TRAINED DATA:
+### 3)TRAINED DATA:
 ![image](https://github.com/gpavana/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118787343/72b1e994-e121-40c4-965a-d92c6283d9ec)
-## 4)LINE OF REGRESSION:
+### 4)LINE OF REGRESSION:
 ![image](https://github.com/gpavana/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118787343/dd31869f-4386-44c5-9877-db7321bac033)
-## 5)COEFFICIENT AND INTERCEPT VALUES:
+### 5)COEFFICIENT AND INTERCEPT VALUES:
 ![image](https://github.com/gpavana/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/118787343/882b225d-9ed3-431b-85a7-e94051165bec)
 
-## Result:
+### Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
